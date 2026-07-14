@@ -1,0 +1,4 @@
+-keep class com.nexusai.** { *; }
+-keepclassmembers class com.nexusai.** { *; }
+-keepattributes Signature
+-dontwarn sun.misc.**
